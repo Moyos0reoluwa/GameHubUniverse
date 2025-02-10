@@ -21,7 +21,7 @@ export default function Hero(): React.ReactElement {
       {/* Content */}
       <div className="relative z-10 text-white animate__animated animate__fadeIn">
         <h1 className="text-4xl sm:text-6xl font-bold mb-6 animate__animated animate__zoomIn opacity-40">
-          GameHub Universe...
+          GameHub Universe
         </h1>
         <button
           className="mt-4 px-6 py-3 bg-blue-700 text-white font-semibold text-lg rounded-lg shadow-lg hover:bg-blue-800 animate__animated animate__infinite animate__pulse"
