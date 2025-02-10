@@ -78,15 +78,15 @@ export default function Navbar(): React.ReactElement {
         isScrolled ? "bg-opacity-100" : "bg-opacity-0"
       }`}
     >
-      <div className="container mx-auto flex items-center justify-between px-4 py-3">
+      <div className="container mx-auto flex items-center justify-between px-4 py-2">
         {/* Logo */}
         <div className="text-lg sm:text-2xl md:text-3xl font-bold">
           <Link href="/">
             <Image
-              src="/gamehubLogo.png"
+              src="/gamehublogo.png"
               alt="GameHub Logo"
-              width={70}
-              height={20}
+              width={100}
+              height={10}
               className="object-contain"
             />
           </Link>
